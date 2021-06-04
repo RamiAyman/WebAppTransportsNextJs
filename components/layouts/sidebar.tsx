@@ -80,7 +80,7 @@ const Sidebar = () => {
                 }
               >
                 <PlaylistAddCheckIcon className="text-gray-400"  />
-                <p className="text-gray-100 hidden md:flex ">Checklist</p>
+                <p className="text-gray-100 hidden md:flex ">CheckState</p>
               </div>
             </div>
           </ActiveLink>
