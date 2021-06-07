@@ -72,7 +72,7 @@ const Sidebar = () => {
               </div>
             </div>
           </ActiveLink>
-          <ActiveLink activeClassName="bg-gray-900 md:border-l-8 border-gray-500" href="#">
+          <ActiveLink activeClassName="bg-gray-900 md:border-l-8 border-gray-500" href="/CheckState">
             <div className="">
               <div
                 className={
