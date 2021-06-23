@@ -109,7 +109,7 @@ const Customer: React.FC = () => {
         <Grid container spacing={3}>
         <Grid item xs={6}> 
           <Typography variant="h4" color="textSecondary" component="h4" >
-                Vehicule 
+                Customer 
               </Typography>
               </Grid>
 
@@ -145,7 +145,7 @@ const Customer: React.FC = () => {
              <Grid item xs={12} sm container>
                  <Grid item xs>
                    <Typography gutterBottom className={classes.busnumber}>
-                   Bus Number : {row.nombre}
+                   Customer Number : {row.nombre}
                    </Typography>
                    <Typography variant="body2" gutterBottom color="textSecondary">
                    Address : {row.adresse}
