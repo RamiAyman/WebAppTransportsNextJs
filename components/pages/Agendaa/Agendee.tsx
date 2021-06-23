@@ -29,18 +29,7 @@ import { makeStyles, Theme,createStyles, WithStyles, withStyles } from '@materia
 
 import { Props } from 'material-ui-chip-input';
 import { owners } from './Tasks';
-interface appoiProp{
-  id : number ;
-    title: string;
-    priorityId: number ;
-    startDate: Date ;
-    endDate: Date;
-    allDay: boolean ;
-    rRule?: string ;
-    exDate?: string ;
-    ownerId: number ;
-  
-  }
+
 const appointments = [
   {
     id: 0,
@@ -328,13 +317,10 @@ export  interface Propss {
   ownerId: number;
   rRule?: Date;
   exDate?: Date;
- 
   [date :string]: any ;
-  
-
 }
 
-export default class Demo extends React.Component<Propss, any> {
+export default class Agendee extends React.Component<Propss, any> {
    
   // #FOLD_BLOCK
   constructor(props ) {
@@ -395,32 +381,21 @@ export default class Demo extends React.Component<Propss, any> {
             intervalCount={1}
             startDayHour={7.5}
             endDayHour={17}
-
           />
            <DayView
             //dayScaleCellComponent={DayScaleCell}
-
             name="TwoDays"
             displayName="Two Days"
             intervalCount={2}
-
             startDayHour={7.5}
             endDayHour={16}
-
           />
-         
-
           <Appointments
-           
           />
-          
           <Resources
             data={resources}
           />
-         
-
           <Toolbar
-           
           />
            <Typography>
           Calendar View

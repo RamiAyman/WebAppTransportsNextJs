@@ -8,7 +8,8 @@ export default function VehiculePage() {
           <title>Schedule</title>
         </Head>
         <div className="bg-gray-100	">
-          <Agendee />
+        <Agendee id={1} title={''} startDate={new Date()} endDate={new Date()} ownerId={1} />
+
           </div>
       </>
     );
